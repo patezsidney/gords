@@ -1,0 +1,333 @@
+/* VARIAVEIS */
+:root{
+    --fonte-destaque: "Black Ops One", cursive;
+    --fonte-padrao: 'Fira Sans', sans-serif;
+    --cor-destaque: #f25b22;
+    --cor-padrao: #ffffff;
+    --cor-padrao-negativo: #000000;
+    --sombra-texto:  0px 0px 3px rgba(0, 0, 0, 0.5);
+    
+}
+/* VARIAVEIS */
+
+/* RESET */
+body, header, main, footer, div, section, nav, a, img, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RESET */
+
+/* PADRONIZAÇÃO */
+body{
+    background-color: #000000;
+    font-family: var(--fonte-padrao);
+    color: var(--cor-padrao);
+}
+.background__fixo{
+    width: 100vw;
+    background-image: url("/assets/img/background_mobile.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: var(--cor-padrao);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: var(--sombra-texto);
+    background-color: var(--cor-destaque);
+    text-transform: uppercase;
+    height: 36px;
+    width: 255px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    display: block;
+    padding-top: 8px;
+}
+h1{
+    font-family: var(--fonte-destaque);
+    color: var(--cor-destaque);
+}
+h2{
+    font-family: var(--fonte-destaque);
+    font-size: 34px;
+    letter-spacing: 1.25px;
+    margin-top: 15px;
+}
+h3{
+    font-family: var(--fonte-destaque);
+    font-size:18px;
+    letter-spacing: 1.25px;
+}
+p{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+}
+img{
+    max-width: 175px;
+}
+strong{
+    font-family: var(--fonte-destaque);
+    color: var(--cor-destaque);
+    font-size: 18px;
+}
+section {
+    border: 2px solid var(--cor-destaque);
+    border-radius: 16px;
+    width: 95%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.hidden{
+    display: none;
+}
+/* PADRONIZAÇÃO */
+
+/* HEADER */
+header{
+    background-color: none;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.desktop__menu {}
+.desktop__menu a{}
+
+.logo__countainer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.logo__countainer img{}
+.logo__countainer h1{
+    font-size: 40px;
+}
+.logo__countainer p{}
+.mobile__menu{
+    text-align: center;
+}
+.mobile__buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+.mobile__buttons a{
+    
+}
+.mobile__menu a{}
+
+.icons__menu {}
+.icons__menu a {
+    display: inline;
+    background-color: unset;
+    margin: 10px;
+}
+.icons__menu a img{}
+.developer__countainer{
+    position: absolute;
+    bottom: 5px;
+}
+.developer__countainer a{
+    background-color: unset;
+    display: inline;
+}
+.developer__countainer a img{
+}
+/* HEADER */
+
+/* FOOTER */
+.footer{
+    background-color: #000000;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer__countainer{
+    
+}
+.footer__link{
+    background-color: unset;
+    display: inline;
+    
+}
+.footer__link img{
+    
+}
+/* FOOTER */
+
+/* MAIN */
+main{}
+
+.section__tradicionais{
+    
+}
+.tradicionais__countainer{
+    
+}
+.tradicionais__countainer h2{}
+
+.cardLeft{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.cardContentLeft{
+    text-align: left;
+}
+.tradicionais__cardContentLeft h3{}
+.tradicionais__cardContentLeft p{}
+.tradicionais__cardContentLeft p span{}
+.cardImageLeft{
+    position: relative;
+    margin-right: 10px;
+    width: 420px;
+    height: 176px;
+    
+}
+.cardImageLeft img{
+    position: absolute;
+    left: -60px;
+}
+.cardRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardContentRight{
+    text-align: right;
+}
+.tradicionais__cardContentRight h3{}
+.tradicionais__cardContentRight p{}
+.tradicionais__cardContentRight p span{}
+.cardImageRight{
+    position: relative;
+    margin-left: 10px;
+    width: 420px;
+    height: 176px;
+    
+}
+.cardImageRight img{
+    position: absolute;
+    right: -70px;
+}
+
+.tradicionais__footer{}
+.tradicionais__footer p{
+
+}
+.section__footer p span{
+    font-size: 14px;
+}
+.section__footer a{
+    margin: 25px auto;
+}
+
+
+.section__artesanais{}
+.artesanais__countainer{}
+.artesanais__countainer h3{}
+
+.artesanais__cardLeft{}
+.artesanais__cardContentLeft{}
+.artesanais__cardContentLeft h3{}
+.artesanais__cardContentLeft p{}
+.artesanais__cardImageLeft{}
+.artesanais__cardImageLeft img{}
+
+.artesanais__cardRight{
+    
+}
+.artesanais__cardContentRight{
+}
+.artesanais__cardContentRightLeft h3{}
+.artesanais__cardContentRight p{}
+.artesanais__cardImageRight{
+   
+}
+.artesanais__cardImageRight img{
+   
+}
+
+.artesanais__footer{}
+.artesanais__footer p{
+    
+}
+.artesanais__footer a{
+    
+}
+
+
+.section__combos{}
+.combos__countainer{}
+.combos__countainer h2{}
+
+.combos__card{
+    border: 2px solid var(--cor-destaque);
+    border-radius: 16px;
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.combos__cardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.combos__cardTitle h3{
+    margin: 10px;
+}
+.combos__cardTitle p{}
+.combos__cardContent{}
+.combos__cardContent p{
+    margin: 5px 0;
+}
+.combos__cardContent p span{
+    font-weight: bold;
+}
+
+.combos__cardInverso{
+    border: 2px solid var(--cor-padrao-negativo);
+    border-radius: 16px;
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--cor-destaque);
+}
+.combos__cardTitleInverso{
+    color: var(--cor-padrao-negativo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.combos__cardTitleInverso h3{
+    margin: 10px;
+}
+.combos__cardTitleInverso strong{
+    color: var(--cor-padrao);
+}
+.combos__cardTitleInverso p{
+}
+.combos__cardContentInverso{}
+.combos__cardContentInverso p{
+    margin: 5px 0;
+    color: var(--cor-padrao-negativo);
+}
+.combos__cardContentInverso p span{
+    font-weight: bold;
+}
+
+.combos__footer{}
+.combos__footer a{}
+/* MAIN */
+
+/* MEDIA */
+/* MEDIA */
