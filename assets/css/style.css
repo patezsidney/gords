@@ -89,14 +89,14 @@ section {
 
 /* HEADER */
 header{
-    background-color: none;
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding-top: 40px;
 }
 .desktop__menu {}
 .desktop__menu a{}
@@ -330,4 +330,43 @@ main{}
 /* MAIN */
 
 /* MEDIA */
+@media (min-width: 370px) {
+    /* PADRONIZAÇÃO */
+    a{
+        height: 45px;
+        width: 90%;
+        margin-bottom: 13px;
+        border-radius: 5px;
+       
+        padding-top: 13px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 18px;
+    }
+    /* PADRONIZAÇÃO */
+
+    /* HEADER */
+    .mobile__menu{
+        width: 80%;
+    }
+    /* HEADER */
+
+    /* MAIN */
+
+    /* MAIN */
+}
+@media (min-width: 600px) {
+
+}
+@media (min-width: 960px) {
+
+}
+@media (min-width: 1280px) {
+
+}
+
+
 /* MEDIA */
