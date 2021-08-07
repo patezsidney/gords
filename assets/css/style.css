@@ -20,6 +20,7 @@ body, header, main, footer, div, section, nav, a, img, h1, h2, h3, p {
 
 /* PADRONIZAÇÃO */
 body{
+    /* max-width: 100vw; */
     background-color: #000000;
     font-family: var(--fonte-padrao);
     color: var(--cor-padrao);
@@ -150,15 +151,9 @@ header{
     text-align: center;
     padding-top: 15px;
 }
-.footer__countainer{
-    
-}
 .footer__link{
     background-color: unset;
     display: inline;
-    
-}
-.footer__link img{
     
 }
 /* FOOTER */
@@ -178,16 +173,18 @@ main{}
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 .cardContentLeft{
     text-align: left;
+    margin-left: 20px;
 }
 .tradicionais__cardContentLeft h3{}
 .tradicionais__cardContentLeft p{}
 .tradicionais__cardContentLeft p span{}
 .cardImageLeft{
     position: relative;
-    margin-right: 10px;
     width: 420px;
     height: 176px;
     
@@ -200,16 +197,18 @@ main{}
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .cardContentRight{
     text-align: right;
+    margin-right: 20px;
 }
 .tradicionais__cardContentRight h3{}
 .tradicionais__cardContentRight p{}
 .tradicionais__cardContentRight p span{}
 .cardImageRight{
     position: relative;
-    margin-left: 10px;
     width: 420px;
     height: 176px;
     
@@ -330,8 +329,8 @@ main{}
 /* MAIN */
 
 /* MEDIA */
-@media (min-width: 370px) {
-    /* PADRONIZAÇÃO */
+/* @media (min-width: 370px) {
+     
     a{
         height: 45px;
         width: 90%;
@@ -339,24 +338,20 @@ main{}
         border-radius: 5px;
        
         padding-top: 13px;
-    }
+    } 
     h1{
         font-size: 60px;
     }
     p{
         font-size: 18px;
     }
-    /* PADRONIZAÇÃO */
+    
 
-    /* HEADER */
+    
     .mobile__menu{
         width: 80%;
-    }
-    /* HEADER */
-
-    /* MAIN */
-
-    /* MAIN */
+    } 
+    
 }
 @media (min-width: 600px) {
 
@@ -366,7 +361,7 @@ main{}
 }
 @media (min-width: 1280px) {
 
-}
+} */
 
 
 /* MEDIA */
